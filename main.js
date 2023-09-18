@@ -3,7 +3,7 @@ function isBalanced(str) {
     // Create a new stack
     class Stack {
         constructor() {
-            this.maxSize = 100;
+            this.maxSize = 1009;
             this.stack = [];
             this.top = -1;
         }
